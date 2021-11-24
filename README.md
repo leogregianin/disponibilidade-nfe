@@ -1,6 +1,7 @@
 # Disponibilidade NFe
 
-[![Test](https://github.com/leogregianin/disponibilidade-nfe/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/leogregianin/disponibilidade-nfe/actions/workflows/main.yml)
+[![Test](https://github.com/leogregianin/disponibilidade-nfe/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/leogregianin/disponibilidade-nfe/actions/workflows/main.yml) [![PyPI](https://img.shields.io/pypi/v/disponibilidade-nfe)](https://pypi.org/project/disponibilidade-nfe/) [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/disponibilidade-nfe)](https://pypi.org/project/disponibilidade-nfe/) 
+
 
 Projeto de Web scraping para verificar a disponibilidade dos Webservices de todas as Secretarias de Fazenda (Sefaz) emitente de Nota Fiscal Eletrônica (NFe) através do Portal Nacional da NFe: http://www.nfe.fazenda.gov.br/portal/disponibilidade.aspx
 
