@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "disponibilidade-nfe"
+version = "0.1.0"
+description = "Web scraping da Disponibilidade dos Webservices da Sefaz através do portal NFe."
+authors = ["Leonardo Gregianin <leogregianin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/leogregianin/disponibilidade-nfe"
+packages = [
+    {include = "disponibilidade_nfe"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.26.0"
+beautifulsoup4 = "^4.10.0"
+requests-mock = "^1.9.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+tox = "^3.24.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
