@@ -22,7 +22,10 @@ from disponibilidade_nfe.nfe import DisponibilidadeNFe
 
 disp_nfe = DisponibilidadeNFe()
 print(disp_nfe.get_status())
+```
 
+Resultado:
+```console
 [
     {
         'autorizador': 'AM',
@@ -52,6 +55,6 @@ print(disp_nfe.get_status())
 ]
 ```
 
-## License & Credits
+## License
 
 This package is licensed under [MIT license](/LICENSE).
